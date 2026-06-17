@@ -44,11 +44,11 @@ A base de dados está disponível em formato JSON:
 
 📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
-Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal 2017–2020.
+Ela corresponde ao conjunto de dados original utilizado nesta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração Pública e de Empresas, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal 2017–2020.
 
 Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
-O principal corpus utilizado nas análises corresponde ao campo **"Relatório Impacto (Seção 3 completa)"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
+O principal corpus utilizado nas análises corresponde ao campo **"Relatório de Impacto (Seção 3 completa)"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
 
 ### Estrutura dos Registros
 
@@ -137,7 +137,7 @@ Esta pesquisa recebeu apoio da Fundação de Amparo à Pesquisa do Estado de Sã
 * Processo: **2024/01491-2**
 * Título: *Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo*
 
-As opiniões, hipóteses, conclusões e recomendações expressas neste material são de responsabilidade exclusiva dos autores e não refletem necessariamente o posicionamento da FAPESP.
+As opiniões, hipóteses, conclusões e recomendações expressas neste material são de responsabilidade exclusiva dos autores.
 
 ---
 
@@ -159,9 +159,9 @@ A utilização dessas ferramentas não substituiu o julgamento científico dos p
 
 * Python 3.10 ou superior;
 * R 4.3 ou superior;
-* RStudio (opcional);
-* Google Chrome ou Chromium;
-* ChromeDriver compatível com a versão instalada do navegador.
+* RStudio;
+* Google Chrome;
+* ChromeDriver compatível com a versão instalada do Google Chrome.
 
 ## Dependências
 
@@ -219,10 +219,6 @@ A base de dados estruturada para fins de pesquisa está disponibilizada sob a li
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-**Projeto FAPESP nº 2025/11431-0**
-*Avaliação e síntese do impacto da pesquisa em Administração na sociedade.*
-
-**Projeto FAPESP nº 2024/01491-2**
-*Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo.*
+**Robusti, C. D. S., & Sandes-Guimarães, L. V. D. (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. https://github.com/cesarrobusti/projeto-impacto
 
 Além de citar o artigo científico associado quando disponível.
