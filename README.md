@@ -1,5 +1,6 @@
 # Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade
 [![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20738101)
+**Versão atual:** 1.0.0
 
 ## Sobre o Projeto
 
@@ -7,7 +8,7 @@ Este repositório reúne os dados, códigos e procedimentos analíticos desenvol
 
 O objetivo deste projeto é analisar como os Programas de Pós-Graduação em Administração descrevem e comunicam os impactos de suas atividades de pesquisa para a sociedade, utilizando técnicas de mineração de texto e análise automatizada de documentos.
 
-Para isso, foi construída uma base de dados contendo os relatórios de impacto dos Programas de Pós-Graduação da Área 27 da CAPES (Administração Pública, Administração de Empresas, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal **2017–2020**.
+Para isso, foi desenvolvido um procedimento automatizado de coleta para os Programas de Pós-Graduação da Área 27 da CAPES (Administração Pública e de Empresas, Ciências Contábeis e Turismo). A presente versão do repositório disponibiliza a base de dados referente aos programas da área de Administração, relativos ao ciclo de avaliação quadrienal **2017–2020**.
 
 O repositório foi organizado para promover transparência metodológica, reprodutibilidade científica e compartilhamento dos dados e códigos utilizados na pesquisa.
 
@@ -58,7 +59,11 @@ projeto-impacto/
 
 ## Coleta de Dados
 
-O diretório de coleta contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.
+O script de coleta está disponível em formato Python:
+
+📄 [coleta CAPES.py](coleta%20CAPES.py)
+
+O arquivo contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.
 
 O coletor utiliza Selenium WebDriver para navegar pela plataforma e extrair os relatórios dos Programas de Pós-Graduação analisados.
 
@@ -68,7 +73,7 @@ A versão disponibilizada neste repositório corresponde à primeira versão fun
 
 ## Base de Dados
 
-A base de dados está disponível em formato JSON:
+A base de dados original utilizada nesta pesquisa está disponível em formato JSON:
 
 📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
@@ -134,7 +139,11 @@ Os arquivos disponibilizados preservam os dados originais coletados durante a pe
 
 ## Processamento e Análise
 
-Os scripts desenvolvidos em R realizam as etapas de preparação e tratamento dos dados para análise.
+O script de análise está disponível em formato R:
+
+📄 [analise_lda.R](analise_lda.R)
+
+O script desenvolvido em R realiza as etapas de preparação e tratamento dos dados para análise.
 
 Entre as atividades realizadas estão:
 
@@ -158,7 +167,7 @@ Os materiais disponibilizados incluem:
 
 * Script de coleta automatizada em Python;
 * Base de dados original em formato JSON;
-* Scripts de processamento e análise em R;
+* Script de processamento e análise em R;
 * Documentação necessária para replicação dos procedimentos.
 
 Embora o estudo tenha sido desenvolvido especificamente para a Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), a metodologia pode ser adaptada para outras áreas de avaliação mediante adequações nos procedimentos de coleta e tratamento dos dados.
@@ -266,7 +275,7 @@ Os scripts disponibilizados neste repositório estão licenciados sob a **MIT Li
 
 ### Base de Dados
 
-A base de dados estruturada para fins de pesquisa está disponibilizada sob a licença **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+A organização, estruturação e disponibilização da base de dados realizada pelos autores está disponibilizada sob a licença **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 ---
 
