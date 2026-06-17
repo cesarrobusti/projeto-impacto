@@ -30,9 +30,9 @@ Os principais objetivos do projeto são:
 
 ## Coleta de Dados
 
-O diretório de coleta contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira.
+O diretório de coleta contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.
 
-O coletor utiliza Selenium WebDriver para navegar pela plataforma e extrair os relatórios de impacto dos Programas de Pós-Graduação analisados.
+O coletor utiliza Selenium WebDriver para navegar pela plataforma e extrair os relatórios dos Programas de Pós-Graduação analisados.
 
 A versão disponibilizada neste repositório corresponde à primeira versão funcional utilizada na pesquisa. Embora tenha sido suficiente para a construção da base de dados utilizada nas análises, o código ainda apresenta limitações e poderá demandar ajustes futuros em função de mudanças na estrutura da Plataforma Sucupira.
 
@@ -42,16 +42,37 @@ A versão disponibilizada neste repositório corresponde à primeira versão fun
 
 A base de dados está disponível em formato JSON.
 
-Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém:
+Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação 2017–2020.
 
-* Informações institucionais dos Programas de Pós-Graduação;
-* Dados de identificação dos programas;
-* Conceitos CAPES;
-* Informações administrativas disponibilizadas publicamente;
-* Textos integrais dos relatórios de impacto;
-* Metadados utilizados durante o processo analítico.
+Os registros incluem:
 
-Os arquivos disponibilizados preservam os dados originais coletados e constituem o corpus utilizado na pesquisa.
+* Código de identificação do programa na CAPES;
+* Nome do Programa de Pós-Graduação;
+* Instituição de Ensino Superior (IES);
+* Modalidade do programa;
+* Nota da avaliação CAPES;
+* Área de avaliação;
+* Estado e região geográfica;
+* Identificador interno utilizado durante o processamento dos dados;
+* Texto integral da Seção 3 (Relatório de Impacto) disponível na Plataforma Sucupira.
+
+Exemplo de estrutura dos registros:
+
+```json
+{
+  "Código do Programa": "31005012019P6",
+  "Instituição de Ensino": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO",
+  "Programa": "ADMINISTRAÇÃO DE EMPRESAS",
+  "Área": "Administração",
+  "Modalidade": "Aca.",
+  "Nota da Avaliação": 6,
+  "Estado": "RJ",
+  "Região": "Sudeste",
+  "Relatório Impacto (Seção 3 completa)": "..."
+}
+```
+
+Os arquivos disponibilizados preservam os dados originais coletados durante a pesquisa e constituem o corpus utilizado nas análises de mineração de texto, modelagem de tópicos (LDA) e classificação dos relatórios de impacto.
 
 ---
 
