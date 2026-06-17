@@ -30,8 +30,6 @@ Os principais objetivos do projeto são:
 
 # Estrutura do Repositório
 
-### Organização dos Arquivos
-
 O repositório está organizado da seguinte forma:
 
 ```text
@@ -52,7 +50,7 @@ projeto-impacto/
 | CITATION.cff                     | Contém as informações de citação do repositório em formato padronizado para plataformas acadêmicas e repositórios científicos.                                                                        |
 | Dados dos programas área 27.json | Base de dados estruturada utilizada nas análises, contendo informações dos Programas de Pós-Graduação e os relatórios de impacto coletados.                                                           |
 | LICENSE                          | Arquivo contendo os termos de licenciamento aplicáveis aos materiais disponibilizados neste repositório.                                                                                              |
-| README.md                        | Documento principal de descrição do projeto, incluindo objetivos, metodologia, documentação dos dados e instruções de utilização.                                                                     |
+| README.md                        | Documento principal de descrição do projeto, incluindo objetivos, documentação dos dados, procedimentos metodológicos e informações para reprodução da pesquisa.                                                                     |
 | coleta CAPES.py                  | Script desenvolvido em Python para coleta automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.                                                                      |
 | analise_lda.R                    | Script desenvolvido em R contendo os procedimentos de pré-processamento textual, construção do corpus documental, modelagem de tópicos por Latent Dirichlet Allocation (LDA) e análises subsequentes. |
 
@@ -73,11 +71,11 @@ A versão disponibilizada neste repositório corresponde à primeira versão fun
 
 ## Base de Dados
 
-A base de dados original utilizada nesta pesquisa está disponível em formato JSON:
+A base de dados utilizada nesta pesquisa está disponível em formato JSON:
 
 📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
-Ela corresponde ao conjunto de dados original utilizado nesta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração Pública e de Empresas, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal 2017–2020.
+Ela contém informações dos Programas de Pós-Graduação em Administração pertencentes à Área 27 da CAPES, referentes ao ciclo de avaliação quadrienal **2017–2020**.
 
 Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
@@ -182,7 +180,7 @@ A reprodução das análises pode ser realizada por meio das seguintes etapas:
 
 3. Executar o script em R para realização do pré-processamento textual, construção do corpus documental, modelagem de tópicos e análises subsequentes.
 
-Como a base de dados utilizada nas análises já está disponibilizada neste repositório, a reprodução dos resultados não depende da execução prévia da etapa de coleta.
+Como a base de dados utilizada nas análises já está disponibilizada neste repositório, a reprodução das etapas analíticas pode ser realizada diretamente a partir do arquivo JSON, sem necessidade de executar previamente o script de coleta.
 
 ---
 
@@ -221,11 +219,14 @@ A utilização dessas ferramentas não substituiu o julgamento científico dos p
 ## Softwares utilizados
 
 * Python 3.10 ou superior;
-* Visual Studio Code;
-* RStudio;
 * R 4.3 ou superior;
 * Google Chrome;
 * ChromeDriver compatível com a versão instalada do Google Chrome.
+
+Ambientes recomendados para execução:
+
+* Visual Studio Code;
+* RStudio.
 
 ## Dependências
 
@@ -267,22 +268,16 @@ Usuários interessados em reutilizar os dados são responsáveis por verificar e
 
 # Licença
 
-Este repositório adota licenças distintas para código e dados.
+A organização, estruturação e disponibilização da base de dados realizada pelos autores está disponibilizada sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-### Código-fonte
-
-Os scripts disponibilizados neste repositório estão licenciados sob a **MIT License**.
-
-### Base de Dados
-
-A organização, estruturação e disponibilização da base de dados realizada pelos autores está disponibilizada sob a licença **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Os textos originais dos relatórios permanecem sujeitos às condições de uso e às políticas definidas pelas instituições responsáveis por sua disponibilização.
 
 ---
 
 # Como Citar
 
+As informações de citação também estão disponíveis no arquivo `CITATION.cff`, compatível com os mecanismos automáticos de citação do GitHub.
+
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-* Robusti, César da Silva & Sandes-Guimarães, Luisa Veras de (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Research dataset and software]. DOI: https://doi.org/10.5281/zenodo.20738101
-
-Além de citar o artigo científico associado quando disponível.
+> ROBUSTI, César da Silva; SANDES-GUIMARÃES, Luisa Veras de. Avaliação e síntese do impacto da pesquisa em Administração na sociedade. Version 1.0.0 Zenodo, 2026. DOI: 10.5281/zenodo.20738101.
