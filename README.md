@@ -155,11 +155,12 @@ A utilização dessas ferramentas não substituiu o julgamento científico dos p
 
 # Requisitos
 
-## Software
+## Software utilizados
 
 * Python 3.10 ou superior;
+* Visual Studio Code 1.124.2 ou superior;
 * R 4.3 ou superior;
-* RStudio;
+* RStudio 2026.01.0 ou superior;
 * Google Chrome;
 * ChromeDriver compatível com a versão instalada do Google Chrome.
 
