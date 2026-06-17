@@ -238,8 +238,6 @@ Esta pesquisa recebeu apoio da Fundação de Amparo à Pesquisa do Estado de Sã
 * Processo: **2024/01491-2**
 * Título: *Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo*
 
-As opiniões, hipóteses, conclusões e recomendações expressas neste material são de responsabilidade exclusiva dos autores.
-
 ---
 
 # Uso de Inteligência Artificial Generativa
