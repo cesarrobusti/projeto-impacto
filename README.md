@@ -4,7 +4,7 @@
 
 ## Sobre o Projeto
 
-Este repositório reúne os dados, códigos e procedimentos analíticos desenvolvidos no âmbito da Bolsa de Treinamento Técnico FAPESP nº **2025/11431-0**, intitulada **"Avaliação e síntese do impacto da pesquisa em Administração na sociedade"**, vinculada ao projeto de Auxílio à Pesquisa Regular FAPESP nº **2024/01491-2**, intitulado **"Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo"**.
+Este repositório reúne os dados, códigos e procedimentos analíticos desenvolvidos no âmbito da Bolsa de Treinamento Técnico FAPESP nº **2025/11431-0**, vinculada ao projeto de Auxílio à Pesquisa Regular FAPESP nº **2024/01491-2**.
 
 O objetivo deste projeto é analisar como os Programas de Pós-Graduação em Administração descrevem e comunicam os impactos de suas atividades de pesquisa para a sociedade, utilizando técnicas de mineração de texto e análise automatizada de documentos.
 
