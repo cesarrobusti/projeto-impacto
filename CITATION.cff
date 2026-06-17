@@ -1,10 +1,7 @@
 cff-version: 1.2.0
-
 message: "If you use this repository, please cite it using the metadata below."
 
 title: "Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade"
-
-type: software
 
 authors:
 
@@ -22,36 +19,4 @@ date-released: 2026-06-17
 
 license: "MIT"
 
-abstract: >
-Repositório contendo scripts de coleta automatizada,
-base de dados em formato JSON e rotinas de análise textual
-desenvolvidas no âmbito dos projetos FAPESP 2025/11431-0 e
-2024/01491-2 para investigação dos relatórios de impacto dos
-Programas de Pós-Graduação da Área 27 da CAPES
-(Administração, Ciências Contábeis e Turismo), referentes ao
-ciclo de avaliação quadrienal 2017-2020.
-
-keywords:
-
-* Administração
-* Pós-Graduação
-* CAPES
-* Plataforma Sucupira
-* Impacto da Pesquisa
-* Mineração de Texto
-* Topic Modeling
-* LDA
-* Ciência Aberta
-* FAPESP
-
-repository-code: "https://github.com/cesarrobusti/projeto-impacto"
-
 url: "https://github.com/cesarrobusti/projeto-impacto"
-
-funding:
-
-* name: "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)"
-  grant: "2025/11431-0"
-
-* name: "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)"
-  grant: "2024/01491-2"
