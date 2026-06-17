@@ -40,7 +40,9 @@ A versão disponibilizada neste repositório corresponde à primeira versão fun
 
 ## Base de Dados
 
-A base de dados está disponível em formato JSON no arquivo "Dados dos pr.
+A base de dados está disponível em formato JSON:
+
+📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
 Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal 2017–2020.
 
