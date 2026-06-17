@@ -1,7 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite it using the metadata below."
-
-title: "Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade"
+message: "If you use this repository, please cite it as below."
 
 authors:
 
@@ -13,10 +11,10 @@ authors:
   given-names: "Luisa Veras de"
   orcid: "https://orcid.org/0000-0001-6894-7784"
 
-version: "1.0.0"
+title: "Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade"
 
-date-released: 2026-06-17
+version: 1.0.0
 
-license: "MIT"
+date-released: 2025-07-17
 
 url: "https://github.com/cesarrobusti/projeto-impacto"
