@@ -251,6 +251,9 @@ Essas ferramentas foram empregadas exclusivamente como instrumentos auxiliares d
 Todas as decisões metodológicas, definições analíticas, procedimentos de coleta, validações dos resultados, interpretações científicas, elaboração das análises e conclusões da pesquisa foram conduzidas, verificadas e supervisionadas pelos pesquisadores responsáveis.
 
 A utilização dessas ferramentas não substituiu o julgamento científico dos pesquisadores em nenhuma etapa do projeto.
+
+---
+
 # Aviso sobre os Dados
 
 Os dados disponibilizados neste repositório foram obtidos a partir de informações públicas disponibilizadas pela CAPES por meio da Plataforma Sucupira.
