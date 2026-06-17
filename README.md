@@ -219,6 +219,6 @@ A base de dados estruturada para fins de pesquisa está disponibilizada sob a li
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-**Robusti, C. D. S., & Sandes-Guimarães, L. V. D. (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. https://github.com/cesarrobusti/projeto-impacto
+*Robusti, C. D. S., & Sandes-Guimarães, L. V. D. (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. https://github.com/cesarrobusti/projeto-impacto
 
 Além de citar o artigo científico associado quando disponível.
