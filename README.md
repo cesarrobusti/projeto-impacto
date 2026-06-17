@@ -252,23 +252,23 @@ A utilização dessas ferramentas não substituiu o julgamento científico dos p
 
 ---
 
-# Aviso sobre os Dados
+# Licença
+
+## Código-fonte
+
+Os scripts e códigos desenvolvidos pelos autores e disponibilizados neste repositório estão licenciados sob os termos da **MIT License**.
+
+## Dados
 
 Os dados disponibilizados neste repositório foram obtidos a partir de informações públicas disponibilizadas pela CAPES por meio da Plataforma Sucupira.
 
-Os autores não reivindicam direitos autorais sobre os textos originais produzidos pelos Programas de Pós-Graduação e disponibilizados nos relatórios institucionais.
+A coleta, organização, estruturação e tratamento dos dados para fins de pesquisa científica foram realizados pelos autores deste repositório.
 
-O conjunto de dados disponibilizado neste repositório corresponde ao processo de coleta, organização, estruturação e preparação dos dados realizado para fins de pesquisa científica.
+Os textos originais dos relatórios de impacto permanecem sujeitos aos direitos, termos de uso e políticas estabelecidos pelas instituições responsáveis por sua produção e disponibilização.
 
-Usuários interessados em reutilizar os dados são responsáveis por verificar eventuais restrições, atualizações ou políticas de uso estabelecidas pelos sistemas e instituições de origem.
+A disponibilização deste conjunto de dados tem finalidade exclusivamente científica e de pesquisa.
 
----
-
-# Licença
-
-A organização, estruturação e disponibilização da base de dados realizada pelos autores está disponibilizada sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0).
-
-Os textos originais dos relatórios permanecem sujeitos às condições de uso e às políticas definidas pelas instituições responsáveis por sua disponibilização.
+Usuários interessados na reutilização dos dados são responsáveis por verificar eventuais restrições, atualizações ou condições de uso aplicáveis às fontes originais.
 
 ---
 
