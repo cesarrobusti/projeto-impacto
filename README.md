@@ -1,4 +1,5 @@
 # Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade
+[![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20738101)
 
 ## Sobre o Projeto
 
@@ -220,6 +221,6 @@ A base de dados estruturada para fins de pesquisa está disponibilizada sob a li
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-* Robusti, César da Silva & Sandes-Guimarães, Luisa Veras de (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. [![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20738101)
+* Robusti, César da Silva & Sandes-Guimarães, Luisa Veras de (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. DOI: https://doi.org/10.5281/zenodo.20738102 
 
 Além de citar o artigo científico associado quando disponível.
