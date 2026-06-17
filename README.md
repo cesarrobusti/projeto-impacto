@@ -232,11 +232,13 @@ Esta pesquisa recebeu apoio da Fundação de Amparo à Pesquisa do Estado de Sã
 
 * Processo: **2025/11431-0**
 * Título: *Avaliação e síntese do impacto da pesquisa em Administração na sociedade*
+* Link: https://bv.fapesp.br/pt/bolsas/231444/avaliacao-e-sintese-do-impacto-da-pesquisa-em-administracao-na-sociedade/
 
 ### Auxílio à Pesquisa Regular
 
 * Processo: **2024/01491-2**
 * Título: *Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo*
+* Link: https://bv.fapesp.br/pt/auxilios/116378/avaliacao-de-impacto-da-pos-graduacao-em-administracao-na-sociedade-brasileira-proposta-de-um-novo-m/
 
 ---
 
