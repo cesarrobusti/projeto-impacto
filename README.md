@@ -59,7 +59,7 @@ projeto-impacto/
 
 O script de coleta está disponível em formato Python:
 
-📄 [coleta CAPES.py](coleta%20CAPES.py)
+🌐 [coleta CAPES.py](coleta%20CAPES.py)
 
 O arquivo contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.
 
@@ -139,7 +139,7 @@ Os arquivos disponibilizados preservam os dados originais coletados durante a pe
 
 O script de análise está disponível em formato R:
 
-📄 [analise_lda.R](analise_lda.R)
+📊 [analise_lda.R](analise_lda.R)
 
 O script desenvolvido em R realiza as etapas de preparação e tratamento dos dados para análise.
 
