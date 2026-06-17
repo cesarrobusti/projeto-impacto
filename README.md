@@ -6,7 +6,7 @@ Este repositório reúne os dados, códigos e procedimentos analíticos desenvol
 
 O objetivo deste projeto é analisar como os Programas de Pós-Graduação em Administração descrevem e comunicam os impactos de suas atividades de pesquisa para a sociedade, utilizando técnicas de mineração de texto e análise automatizada de documentos.
 
-Para isso, foi construída uma base de dados contendo os relatórios de impacto dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal **2017–2020**.
+Para isso, foi construída uma base de dados contendo os relatórios de impacto dos Programas de Pós-Graduação da Área 27 da CAPES (Administração Pública, Administração de Empresas, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal **2017–2020**.
 
 O repositório foi organizado para promover transparência metodológica, reprodutibilidade científica e compartilhamento dos dados e códigos utilizados na pesquisa.
 
