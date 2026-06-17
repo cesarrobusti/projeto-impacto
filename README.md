@@ -24,7 +24,7 @@ Os principais objetivos do projeto são:
 * Aplicar técnicas de mineração de texto para análise do corpus documental;
 * Empregar modelagem de tópicos utilizando **Latent Dirichlet Allocation (LDA)**;
 * Desenvolver procedimentos de classificação dos relatórios de impacto;
-* Produzir evidências empíricas para subsidiar pesquisas sobre avaliação da pós-graduação e impacto social da ciência.
+* Produzir evidências empíricas para subsidiar pesquisas sobre avaliação da pós-graduação e impacto na sociedade.
 
 ---
 
