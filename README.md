@@ -29,6 +29,33 @@ Os principais objetivos do projeto são:
 
 # Estrutura do Repositório
 
+### Organização dos Arquivos
+
+O repositório está organizado da seguinte forma:
+
+```text
+projeto-impacto/
+│
+├── CITATION.cff
+├── Dados dos programas área 27.json
+├── LICENSE
+├── README.md
+├── coleta CAPES.py
+└── analise_lda.R
+```
+
+### Descrição dos Arquivos
+
+| Arquivo                          | Descrição                                                                                                                                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CITATION.cff                     | Contém as informações de citação do repositório em formato padronizado para plataformas acadêmicas e repositórios científicos.                                                                        |
+| Dados dos programas área 27.json | Base de dados estruturada utilizada nas análises, contendo informações dos Programas de Pós-Graduação e os relatórios de impacto coletados.                                                           |
+| LICENSE                          | Arquivo contendo os termos de licenciamento aplicáveis aos materiais disponibilizados neste repositório.                                                                                              |
+| README.md                        | Documento principal de descrição do projeto, incluindo objetivos, metodologia, documentação dos dados e instruções de utilização.                                                                     |
+| coleta CAPES.py                  | Script desenvolvido em Python para coleta automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.                                                                      |
+| analise_lda.R                    | Script desenvolvido em R contendo os procedimentos de pré-processamento textual, construção do corpus documental, modelagem de tópicos por Latent Dirichlet Allocation (LDA) e análises subsequentes. |
+
+
 ## Coleta de Dados
 
 O diretório de coleta contém um script desenvolvido em Python para obtenção automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.
@@ -50,6 +77,20 @@ Ela corresponde ao conjunto de dados original utilizado nesta pesquisa e contém
 Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
 O principal corpus utilizado nas análises corresponde ao campo **"Relatório de Impacto (Seção 3 completa)"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
+
+### Estatísticas da Base
+
+A base de dados disponibilizada neste repositório apresenta as seguintes características:
+
+* Programas analisados: 118;
+* Área de avaliação CAPES: Administração;
+* Ciclo de avaliação: 2017–2020;
+* Unidade de análise: Programa de Pós-Graduação;
+* Corpus principal: Relatório de Impacto (Seção 3 completa);
+* Formato dos dados: JSON;
+* Data de coleta dos dados: setembro de 2025.
+
+A coleta original foi realizada para os Programas de Pós-Graduação da Área 27 da CAPES. Entretanto, a base disponibilizada nesta versão do repositório contempla exclusivamente os programas da área de Administração que possuíam relatórios de impacto disponíveis no período analisado.
 
 ### Estrutura dos Registros
 
@@ -122,6 +163,18 @@ Os materiais disponibilizados incluem:
 
 Embora o estudo tenha sido desenvolvido especificamente para a Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), a metodologia pode ser adaptada para outras áreas de avaliação mediante adequações nos procedimentos de coleta e tratamento dos dados.
 
+## Fluxo Geral de Reprodução
+
+A reprodução das análises pode ser realizada por meio das seguintes etapas:
+
+1. Executar o script de coleta em Python para obtenção dos dados diretamente na Plataforma Sucupira (opcional);
+
+2. Utilizar a base de dados disponibilizada em formato JSON, que já corresponde ao conjunto de dados estruturado utilizado na pesquisa;
+
+3. Executar o script em R para realização do pré-processamento textual, construção do corpus documental, modelagem de tópicos e análises subsequentes.
+
+Como a base de dados utilizada nas análises já está disponibilizada neste repositório, a reprodução dos resultados não depende da execução prévia da etapa de coleta.
+
 ---
 
 # Financiamento
@@ -156,12 +209,12 @@ A utilização dessas ferramentas não substituiu o julgamento científico dos p
 
 # Requisitos
 
-## Software utilizados
+## Softwares utilizados
 
 * Python 3.10 ou superior;
-* Visual Studio Code 1.124.2 ou superior;
+* Visual Studio Code;
+* RStudio;
 * R 4.3 ou superior;
-* RStudio 2026.01.0 ou superior;
 * Google Chrome;
 * ChromeDriver compatível com a versão instalada do Google Chrome.
 
@@ -221,6 +274,6 @@ A base de dados estruturada para fins de pesquisa está disponibilizada sob a li
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-* Robusti, César da Silva & Sandes-Guimarães, Luisa Veras de (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Computer software]. DOI: https://doi.org/10.5281/zenodo.20738102 
+* Robusti, César da Silva & Sandes-Guimarães, Luisa Veras de (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version 1.0.0) [Research dataset and software]. DOI: https://doi.org/10.5281/zenodo.20738101
 
 Além de citar o artigo científico associado quando disponível.
