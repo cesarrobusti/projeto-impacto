@@ -75,7 +75,7 @@ A base de dados utilizada nesta pesquisa está disponível em formato JSON:
 
 📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
-Ela contém informações dos Programas de Pós-Graduação em Administração pertencentes à Área 27 da CAPES, referentes ao ciclo de avaliação quadrienal **2017–2020**.
+Ela contém informações dos Programas de Pós-Graduação em Administração pertencentes à Área de Avaliação Administração Pública e de Empresas, Ciências Contábeis e Turismo (Área 27 da CAPES), referentes ao ciclo de avaliação quadrienal **2017–2020**.
 
 Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
@@ -279,3 +279,7 @@ As informações de citação também estão disponíveis no arquivo `CITATION.c
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
 > Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version Version1). Zenodo. https://doi.org/10.5281/zenodo.20738102
+
+# Contato
+
+Dúvidas, sugestões ou relatos de problemas podem ser registrados por meio da seção Issues deste repositório.
