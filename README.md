@@ -280,6 +280,8 @@ Caso utilize os dados, códigos ou procedimentos disponibilizados neste reposit�
 
 > Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version Version1). Zenodo. https://doi.org/10.5281/zenodo.20738102
 
+---
+
 # Contato
 
 Dúvidas, sugestões ou relatos de problemas podem ser registrados por meio da seção Issues deste repositório.
