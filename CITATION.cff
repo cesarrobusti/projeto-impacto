@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Avaliação e Síntese do Impacto da Pesquisa em Administração na Sociedade"
+type: software
+
+authors:
+
+* family-names: "Robusti"
+  given-names: "César"
+
+repository-code: "https://github.com/cesarrobusti/projeto-impacto/"
+
+abstract: >
+Repositório contendo dados, scripts e procedimentos analíticos
+utilizados para análise dos relatórios de impacto dos Programas
+de Pós-Graduação da Área 27 da CAPES (Administração, Ciências
+Contábeis e Turismo), referentes ao ciclo de avaliação
+quadrienal 2017-2020.
+
+license: MIT
+
+funding:
+
+* name: "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)"
+  type of support: Bolsas no Brasil - Programa Capacitação - Treinamento Técnico
+  grant: "2025/11431-0"
+
+* name: "Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)"
+  type of support: Auxílio à Pesquisa - Regular
+  grant: "2024/01491-2"
