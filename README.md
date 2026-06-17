@@ -184,36 +184,6 @@ Como a base de dados utilizada nas análises já está disponibilizada neste rep
 
 ---
 
-# Financiamento
-
-Esta pesquisa recebeu apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
-
-### Bolsa de Treinamento Técnico
-
-* Processo: **2025/11431-0**
-* Título: *Avaliação e síntese do impacto da pesquisa em Administração na sociedade*
-
-### Auxílio à Pesquisa Regular
-
-* Processo: **2024/01491-2**
-* Título: *Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo*
-
-As opiniões, hipóteses, conclusões e recomendações expressas neste material são de responsabilidade exclusiva dos autores.
-
----
-
-# Uso de Inteligência Artificial Generativa
-
-Ferramentas de inteligência artificial generativa, incluindo Google Gemini e ChatGPT, foram utilizadas como apoio ao desenvolvimento dos scripts computacionais, identificação e correção de erros de programação, revisão de código, documentação técnica e organização deste repositório.
-
-Essas ferramentas foram empregadas exclusivamente como instrumentos auxiliares de desenvolvimento e suporte técnico.
-
-Todas as decisões metodológicas, definições analíticas, procedimentos de coleta, validações dos resultados, interpretações científicas, elaboração das análises e conclusões da pesquisa foram conduzidas, verificadas e supervisionadas pelos pesquisadores responsáveis.
-
-A utilização dessas ferramentas não substituiu o julgamento científico dos pesquisadores em nenhuma etapa do projeto.
-
----
-
 # Requisitos
 
 ## Softwares utilizados
@@ -254,6 +224,33 @@ Os resultados produzidos a partir das análises de mineração de texto, modelag
 
 ---
 
+# Financiamento
+
+Esta pesquisa recebeu apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
+
+### Bolsa de Treinamento Técnico
+
+* Processo: **2025/11431-0**
+* Título: *Avaliação e síntese do impacto da pesquisa em Administração na sociedade*
+
+### Auxílio à Pesquisa Regular
+
+* Processo: **2024/01491-2**
+* Título: *Avaliação de impacto da pós-graduação em administração na sociedade brasileira: proposta de um novo modelo*
+
+As opiniões, hipóteses, conclusões e recomendações expressas neste material são de responsabilidade exclusiva dos autores.
+
+---
+
+# Uso de Inteligência Artificial Generativa
+
+Ferramentas de inteligência artificial generativa, incluindo Google Gemini e ChatGPT, foram utilizadas como apoio ao desenvolvimento dos scripts computacionais, identificação e correção de erros de programação, revisão de código, documentação técnica e organização deste repositório.
+
+Essas ferramentas foram empregadas exclusivamente como instrumentos auxiliares de desenvolvimento e suporte técnico.
+
+Todas as decisões metodológicas, definições analíticas, procedimentos de coleta, validações dos resultados, interpretações científicas, elaboração das análises e conclusões da pesquisa foram conduzidas, verificadas e supervisionadas pelos pesquisadores responsáveis.
+
+A utilização dessas ferramentas não substituiu o julgamento científico dos pesquisadores em nenhuma etapa do projeto.
 # Aviso sobre os Dados
 
 Os dados disponibilizados neste repositório foram obtidos a partir de informações públicas disponibilizadas pela CAPES por meio da Plataforma Sucupira.
