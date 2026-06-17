@@ -40,39 +40,51 @@ A versão disponibilizada neste repositório corresponde à primeira versão fun
 
 ## Base de Dados
 
-A base de dados está disponível em formato JSON.
+A base de dados está disponível em formato JSON no arquivo "Dados dos pr.
 
-Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação 2017–2020.
+Ela corresponde ao conjunto de dados original utilizado na elaboração do artigo derivado desta pesquisa e contém informações dos Programas de Pós-Graduação da Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), referentes ao ciclo de avaliação quadrienal 2017–2020.
 
-Os registros incluem:
+Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
-* Código de identificação do programa na CAPES;
-* Nome do Programa de Pós-Graduação;
-* Instituição de Ensino Superior (IES);
-* Modalidade do programa;
-* Nota da avaliação CAPES;
-* Área de avaliação;
-* Estado e região geográfica;
-* Identificador interno utilizado durante o processamento dos dados;
-* Texto integral da Seção 3 (Relatório de Impacto) disponível na Plataforma Sucupira.
+O principal corpus utilizado nas análises corresponde ao campo **"Relatório Impacto (Seção 3 completa)"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
 
-Exemplo de estrutura dos registros:
+### Estrutura dos Registros
+
+Cada registro da base representa um Programa de Pós-Graduação e possui a seguinte estrutura:
 
 ```json
 {
   "Código do Programa": "31005012019P6",
-  "Instituição de Ensino": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO",
-  "Programa": "ADMINISTRAÇÃO DE EMPRESAS",
-  "Área": "Administração",
-  "Modalidade": "Aca.",
-  "Nota da Avaliação": 6,
   "Estado": "RJ",
+  "ID": 13,
+  "Instituição de Ensino": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO",
+  "Modalidade": "Aca.",
+  "Nome corrigido": "\"PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO\",",
+  "Nota da Avaliação": 6,
+  "Programa": "ADMINISTRAÇÃO DE EMPRESAS",
   "Região": "Sudeste",
-  "Relatório Impacto (Seção 3 completa)": "..."
+  "Área": "Administração",
+  "Relatório Impacto (Seção 3 completa)": "Texto integral do relatório..."
 }
 ```
 
-Os arquivos disponibilizados preservam os dados originais coletados durante a pesquisa e constituem o corpus utilizado nas análises de mineração de texto, modelagem de tópicos (LDA) e classificação dos relatórios de impacto.
+### Descrição dos Campos
+
+| Campo                                | Descrição                                                                                |
+| ------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Código do Programa                   | Identificador oficial do Programa de Pós-Graduação na CAPES                              |
+| Estado                               | Unidade federativa da instituição de ensino                                              |
+| ID                                   | Identificador interno utilizado durante o processamento dos dados                        |
+| Instituição de Ensino                | Nome da instituição responsável pelo programa                                            |
+| Modalidade                           | Modalidade do programa (Acadêmico ou Profissional)                                       |
+| Nome corrigido                       | Campo padronizado utilizado durante o tratamento dos dados                               |
+| Nota da Avaliação                    | Conceito atribuído pela CAPES no ciclo de avaliação                                      |
+| Programa                             | Nome do Programa de Pós-Graduação                                                        |
+| Região                               | Região geográfica brasileira onde o programa está localizado                             |
+| Área                                 | Área de avaliação CAPES associada ao programa                                            |
+| Relatório Impacto (Seção 3 completa) | Texto integral da Seção 3 do relatório de impacto disponibilizado na Plataforma Sucupira |
+
+Os arquivos disponibilizados preservam os dados originais coletados durante a pesquisa e constituem o corpus utilizado nas análises de mineração de texto, modelagem de tópicos por Latent Dirichlet Allocation (LDA) e classificação dos relatórios de impacto.
 
 ---
 
