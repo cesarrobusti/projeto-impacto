@@ -1,6 +1,6 @@
 # Avaliação e síntese do impacto da pesquisa em Administração na sociedade
 [![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20738101)
-- **Versão atual:** 1.0.0
+- **Versão atual:** 1.0.0 - Última atualização: 17/06/2026
 
 ## Sobre o Projeto
 
