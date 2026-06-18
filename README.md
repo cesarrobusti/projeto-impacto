@@ -1,4 +1,5 @@
 # Avaliação e síntese do impacto da pesquisa em Administração na sociedade
+[![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20739918)
 - **Versão atual:** 1.0.0 - Última atualização: 17/06/2026
 
 ## Sobre o Projeto
@@ -276,7 +277,7 @@ As informações de citação também estão disponíveis no arquivo `CITATION.c
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade. https://github.com/cesarrobusti/projeto-impacto
+> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade. (Version V1). Zenodo. https://doi.org/10.5281/zenodo.20739918
 
 ---
 
