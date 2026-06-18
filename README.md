@@ -277,7 +277,7 @@ As informações de citação também estão disponíveis no arquivo `CITATION.c
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade. (Version V1). Zenodo. https://doi.org/10.5281/zenodo.20739918
+> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20739918
 
 ---
 
