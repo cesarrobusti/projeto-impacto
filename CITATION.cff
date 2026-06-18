@@ -3,11 +3,11 @@ message: "If you use the data, code, or materials from this repository, please c
 
 title: "Avaliação e síntese do impacto da pesquisa em Administração na sociedade"
 
-version: "1.0"
+version: "1.0.0"
 date-released: 2026-06-17
 
-doi: 10.5281/zenodo.20738101
-url: "https://doi.org/10.5281/zenodo.20738101"
+doi: 10.5281/zenodo.20739918
+url: "https://doi.org/10.5281/zenodo.20739918"
 repository-code: "https://github.com/cesarrobusti/projeto-impacto"
 
 authors:
