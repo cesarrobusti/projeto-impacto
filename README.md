@@ -1,5 +1,4 @@
 # Avaliação e síntese do impacto da pesquisa em Administração na sociedade
-[![DOI](https://zenodo.org/badge/1272570364.svg)](https://doi.org/10.5281/zenodo.20738101)
 - **Versão atual:** 1.0.0 - Última atualização: 17/06/2026
 
 ## Sobre o Projeto
@@ -76,11 +75,11 @@ A base de dados utilizada nesta pesquisa está disponível em formato JSON:
 
 📄 [Dados dos programas área 27.json](Dados%20dos%20programas%20%C3%A1rea%2027.json)
 
-Ela contém informações dos Programas de Pós-Graduação em Administração pertencentes à Área de Avaliação Administração Pública e de Empresas, Ciências Contábeis e Turismo (Área 27 da CAPES), referentes ao ciclo de avaliação quadrienal **2017–2020**.
+Ela contém informações dos Programas de Pós-Graduação em Administração pertencentes à Área 27 da CAPES, referentes ao ciclo de avaliação quadrienal **2017–2020**.
 
-Os registros incluem informações institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
+Os registros incluem informações agregadas, com dados institucionais dos programas, dados de identificação, localização geográfica, modalidade de oferta, notas de avaliação da CAPES e o conteúdo textual dos relatórios de impacto disponibilizados na Plataforma Sucupira.
 
-O principal corpus utilizado nas análises corresponde ao campo **"Relatório de Impacto (Seção 3 completa)"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
+O principal corpus utilizado nas análises corresponde ao campo **"Relatório de Impacto"**, que contém o texto integral da Seção 3 dos relatórios de impacto elaborados pelos Programas de Pós-Graduação.
 
 ### Estatísticas da Base
 
@@ -94,7 +93,7 @@ A base de dados disponibilizada neste repositório apresenta as seguintes caract
 * Formato dos dados: JSON;
 * Data de coleta dos dados: setembro de 2025.
 
-A coleta original foi realizada para os Programas de Pós-Graduação da Área 27 da CAPES. Entretanto, a base disponibilizada nesta versão do repositório contempla exclusivamente os programas da área de Administração que possuíam relatórios de impacto disponíveis no período analisado.
+A coleta original foi realizada para todos os Programas de Pós-Graduação da Área 27 da CAPES. Entretanto, a base disponibilizada nesta versão do repositório contempla exclusivamente os programas da área de Administração que possuíam relatórios de impacto disponíveis no período analisado.
 
 ### Estrutura dos Registros
 
@@ -120,7 +119,7 @@ Cada registro da base representa um Programa de Pós-Graduação e possui a segu
 
 | Campo                                | Descrição                                                                                |
 | ------------------------------------ | ---------------------------------------------------------------------------------------- |
-| Código do Programa                   | Identificador oficial do Programa de Pós-Graduação na CAPES                              |
+| Código do Programa                   | Identificador oficial do Programa de Pós-Graduação na plataforma Sucupira                |
 | Estado                               | Unidade federativa da instituição de ensino                                              |
 | ID                                   | Identificador interno utilizado durante o processamento dos dados                        |
 | Instituição de Ensino                | Nome da instituição responsável pelo programa                                            |
@@ -130,7 +129,7 @@ Cada registro da base representa um Programa de Pós-Graduação e possui a segu
 | Programa                             | Nome do Programa de Pós-Graduação                                                        |
 | Região                               | Região geográfica brasileira onde o programa está localizado                             |
 | Área                                 | Área de avaliação CAPES associada ao programa                                            |
-| Relatório Impacto (Seção 3 completa) | Texto integral da Seção 3 do relatório de impacto disponibilizado na Plataforma Sucupira |
+| Relatório Impacto                    | Texto integral da Seção 3 do relatório disponibilizado na Plataforma Sucupira            |
 
 Os arquivos disponibilizados preservam os dados originais coletados durante a pesquisa e constituem o corpus utilizado nas análises de mineração de texto, modelagem de tópicos por Latent Dirichlet Allocation (LDA) e classificação dos relatórios de impacto.
 
@@ -169,7 +168,7 @@ Os materiais disponibilizados incluem:
 * Script de processamento e análise em R;
 * Documentação necessária para replicação dos procedimentos.
 
-Embora o estudo tenha sido desenvolvido especificamente para a Área 27 da CAPES (Administração, Ciências Contábeis e Turismo), a metodologia pode ser adaptada para outras áreas de avaliação mediante adequações nos procedimentos de coleta e tratamento dos dados.
+Embora o estudo tenha sido desenvolvido especificamente para a Área 27 da CAPES, a metodologia pode ser adaptada para outras áreas de avaliação mediante adequações nos procedimentos de coleta e tratamento dos dados.
 
 ## Fluxo Geral de Reprodução
 
@@ -263,11 +262,7 @@ Os scripts e códigos desenvolvidos pelos autores e disponibilizados neste repos
 
 ## Dados
 
-Os dados disponibilizados neste repositório foram obtidos a partir de informações públicas disponibilizadas pela CAPES por meio da Plataforma Sucupira.
-
-A coleta, organização, estruturação e tratamento dos dados para fins de pesquisa científica foram realizados pelos autores deste repositório.
-
-Os textos originais dos relatórios de impacto permanecem sujeitos aos direitos, termos de uso e políticas estabelecidos pelas instituições responsáveis por sua produção e disponibilização.
+Os dados disponibilizados neste repositório foram obtidos a partir de informações públicas da CAPES, disponíveis na Plataforma Sucupira.
 
 A disponibilização deste conjunto de dados tem finalidade exclusivamente científica e de pesquisa.
 
@@ -281,7 +276,7 @@ As informações de citação também estão disponíveis no arquivo `CITATION.c
 
 Caso utilize os dados, códigos ou procedimentos disponibilizados neste repositório, recomenda-se citar:
 
-> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade (Version Version1). Zenodo. https://doi.org/10.5281/zenodo.20738102
+> Robusti, C. da S., & Sandes-Guimarães, L. V. de . (2026). Avaliação e síntese do impacto da pesquisa em Administração na sociedade. https://github.com/cesarrobusti/projeto-impacto
 
 ---
 
