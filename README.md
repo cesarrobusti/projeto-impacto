@@ -39,8 +39,8 @@ projeto-impacto/
 ├── Dados dos programas área 27.json
 ├── LICENSE
 ├── README.md
-├── coleta CAPES.py
-└── analise_lda.R
+├── analise_lda.R
+└── coleta CAPES.py
 ```
 
 ### Descrição dos Arquivos
@@ -51,8 +51,9 @@ projeto-impacto/
 | Dados dos programas área 27.json | Base de dados estruturada utilizada nas análises, contendo informações dos Programas de Pós-Graduação e os relatórios de impacto coletados.                                                           |
 | LICENSE                          | Arquivo contendo os termos de licenciamento aplicáveis aos materiais disponibilizados neste repositório.                                                                                              |
 | README.md                        | Documento principal de descrição do projeto, incluindo objetivos, documentação dos dados, procedimentos metodológicos e informações para reprodução da pesquisa.                                                                     |
-| coleta CAPES.py                  | Script desenvolvido em Python para coleta automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.                                                                      |
 | analise_lda.R                    | Script desenvolvido em R contendo os procedimentos de pré-processamento textual, construção do corpus documental, modelagem de tópicos por Latent Dirichlet Allocation (LDA) e análises subsequentes. |
+| coleta CAPES.py                  | Script desenvolvido em Python para coleta automatizada de informações públicas disponibilizadas na Plataforma Sucupira da CAPES.                                                                      |
+
 
 
 ## Coleta de Dados
